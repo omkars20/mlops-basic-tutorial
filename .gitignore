@@ -1,0 +1,41 @@
+# Ignore Python bytecode and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and output files
+*.log
+*.out
+*.err
+
+# Ignore build artifacts and package files
+*.egg-info/
+dist/
+build/
+
+# Ignore Docker-related files
+docker_image/.env
+docker_image/*.log
+docker_image/*.tmp
+
+# Ignore files in firstproject (adjust as needed)
+firstproject/__pycache__/
+firstproject/*.pyc
+firstproject/env/
+firstproject/venv/
+
+# Ignore package creation temporary files
+package_creation/*.egg-info/
+package_creation/build/
+package_creation/dist/
+package_creation/*.log
+
